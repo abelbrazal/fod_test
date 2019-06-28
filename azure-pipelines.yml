@@ -24,6 +24,6 @@ steps:
     APIAuthenticationType: '1'
     APIKey: '1842bb55-5afb-41f0-8c2e-f8088c925712'
     APISecret: 'SS9aNzx1NGdUb1VLSzRvRXlZa1V8aTlWbURJN2J20'
-    EntitlementPreference: '2'
+    EntitlementPreference: '1'
     PurchaseEntitlements: false
     PreferRemediation: false
