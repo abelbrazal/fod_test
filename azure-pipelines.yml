@@ -27,14 +27,3 @@ steps:
     EntitlementPreference: '2'
     PurchaseEntitlements: false
     PreferRemediation: false
-- task: FortifyOnDemandDynamic@3
-  inputs:
-    APIUrl: 'https://api.ams.fortify.com'
-    ReleaseId: '211874'
-    APIAuthenticationType: '2'
-    Username: 'abel_test_seclead'
-    PersonalAccessTokenSecret: 'aHJcV0VnVTVIMFhweXpIVTFDYjZ7UU9xPjJNbWFG0'
-    TenantID: 'abel'
-    EntitlementPreference: '2'
-    PurchaseEntitlements: false
-    PreferRemediation: false
