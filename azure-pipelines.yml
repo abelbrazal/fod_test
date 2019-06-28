@@ -17,13 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-- task: FortifyOnDemandStatic@3
-  inputs:
-    FortifyProjects: 'https://github.com/cripher/fod_test.git'
-    BSIToken: 'eyJ0ZW5hbnRJZCI6OTk1LCJ0ZW5hbnRDb2RlIjoiYWJlbCIsInJlbGVhc2VJZCI6MjExODc0LCJwYXlsb2FkVHlwZSI6IkFOQUxZU0lTX1BBWUxPQUQiLCJhc3Nlc3NtZW50VHlwZUlkIjoyNzMsInRlY2hub2xvZ3lUeXBlIjoiSkFWQS9KMkVFIiwidGVjaG5vbG9neVR5cGVJZCI6NywidGVjaG5vbG9neVZlcnNpb24iOiIxLjkiLCJ0ZWNobm9sb2d5VmVyc2lvbklkIjoxNywiYXVkaXRQcmVmZXJlbmNlIjoiTWFudWFsIiwiYXVkaXRQcmVmZXJlbmNlSWQiOjEsImluY2x1ZGVUaGlyZFBhcnR5IjpmYWxzZSwiaW5jbHVkZU9wZW5Tb3VyY2VBbmFseXNpcyI6ZmFsc2UsInBvcnRhbFVyaSI6Imh0dHBzOi8vYW1zLmZvcnRpZnkuY29tIiwiYXBpVXJpIjoiaHR0cHM6Ly9hcGkuYW1zLmZvcnRpZnkuY29tIiwic2NhblByZWZlcmVuY2UiOiJTdGFuZGFyZCIsInNjYW5QcmVmZXJlbmNlSWQiOjF9'
-    APIAuthenticationType: '1'
-    APIKey: '1842bb55-5afb-41f0-8c2e-f8088c925712'
-    APISecret: 'SS9aNzx1NGdUb1VLSzRvRXlZa1V8aTlWbURJN2J20'
-    EntitlementPreference: '2'
-    PurchaseEntitlements: false
-    PreferRemediation: false
